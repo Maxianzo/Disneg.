@@ -100,6 +100,7 @@
 
 <body>
 
+
   <!-- NAVBAR -->
     <header class="py-3">
         <nav class="container navbar navbar-expand-lg navbar-light">
@@ -112,7 +113,7 @@
             <div class="collapse navbar-collapse" id="navMenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#section-pdf">PDF</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pdf.html">PDF</a></li>
                     <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
                     <li class="nav-item"><a class="nav-link" href="ayuda.html">Ayuda</a></li>
                 </ul>
@@ -140,18 +141,22 @@
             <div class="col-6 col-md-4 col-lg-3">
                 <div class="pdf-card">
                    <div class="img-box">
-    <img src="./assets/img/distrolac.PNG" alt="Distrolac">
-</div>
+                        <img src="./assets/img/distrolac.PNG" alt="Distrolac">
+                    </div>
                     <div class="pdf-body">
                         <div class="pdf-title">Distrolac</div>
                         <p class="pdf-desc">
-    Fiambres, lácteos, quesos y despensa. Reparto diario en varias zonas.
-</p>
+                            Fiambres, lácteos, quesos y despensa. Reparto diario en varias zonas.
+                        </p>
 
-                        <a class="btn btn-success w-100 mb-2" href="Distrolac.pdf" download>
+                        <a class="btn btn-success w-100 mb-2" href="distrolac/Lista-especial.pdf" download>
                             Descargar Lista PDF
                         </a>
-
+                        <a  style="background-color: #7d1515 !important; border-color: #7d1515 !important;  " class="btn btn-success w-100 mb-2"
+                        href="#"
+                        onclick="window.open('https://drive.google.com/drive/folders/1HHx60FYf2c8iAIJkU9kztJAdMjmVL6Ok', '_blank'); return false;">
+                            Drive directo
+                        </a>
                         <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#modalDistrolac">
                             Más información
                         </button>
@@ -172,7 +177,7 @@
     Alimentos para perros y gatos, pipetas y arena sanitaria.
 </p>
 
-                        <a class="btn btn-success w-100 mb-2" href="CanServi.pdf" download>
+                        <a class="btn btn-success w-100 mb-2" href="can service/pdf-20-11-2025.pdf" download>
                             Descargar Lista PDF
                         </a>
 
@@ -185,6 +190,78 @@
 
         </div>
     </section>
+ <!-- OFERTAS -->
+
+      <section class="hero">
+        <div class="container">
+         <h1>Ofertas Destacadas</h1>
+<h5>Aprovechá los precios especiales de esta semana</h5>
+
+        
+    </section>
+
+
+<div class="row g-3">
+
+<!-- 🥇 DISTROLAC -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <div class="pdf-card">
+                   <div class="img-box">
+                        <img src="./distrolac/img/cremoso-sin-lactosa.jpg" alt="Distrolac">
+                    </div>
+                    <div class="pdf-body">
+                        <div class="pdf-title">Distrolac</div>
+                        <h1>   SUPER OFERTA!😉</h1>
+                        <p class="pdf-desc">
+                         
+
+* _• Queso cremoso sin lactosa Lombarde x kg :<br><br> <b>$3869</b>  . <br> <br>
+* ⁠Peso de la horma: 2kg aprox
+
+                        </p>
+<p>(oferta válida únicamente Hasta agotar stock. Producto con vencimiento al 28/11)</p>
+                    
+                        
+                    </div>
+                </div>
+            </div>
+
+   <div class="col-6 col-md-4 col-lg-3">
+                <div class="pdf-card">
+                   <div class="img-box">
+                        <img src="./distrolac/img/barra-destino.jpg" alt="Distrolac">
+                    </div>
+                    <div class="pdf-body">
+                        <div class="pdf-title">Distrolac</div>
+                        <h1>   SUPER OFERTA!😉</h1>
+                        <p class="pdf-desc">
+                         
+
+
+
+
+* _• Queso barra El Destino x kg : <br><br> <b>$6897</b> .
+
+
+                        </p>
+<p>(Oferta válida hasta agotar stock. Producto con vencimiento al 05/02)</p>
+                    
+                        
+                    </div>
+                </div>
+            </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
     <!-- MODALS -->
     <!-- Modal Alfa -->
     <div class="modal fade" id="modalAlfa">
@@ -237,7 +314,7 @@
 
     <!-- WhatsApp -->
     <div class="container-boton">
-        <a href="https://wa.me/2612708252?text=Buen dia,quiero hacer un pedido " target="_blank">
+        <a href="https://wa.me/2612708252?text=Buen dia,quiero hacer un pedido/consulta " target="_blank">
             <img class="boton" src="./assets/img/icono.jpg" alt="">
         </a>
     </div>
